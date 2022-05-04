@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/cazanca/advice-generator-vue)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://advice-generator-fdthwtv3i-cazanca.vercel.app/)
 
 
 ### Built with
