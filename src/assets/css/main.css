@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+* {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Dark-Blue);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 375px;
+    background-color:var(--Dark-Grayish-Blue);
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    box-shadow: 10px 10px 20px var(--Dark-Blue);
+}
+
+.card .title {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: var(--Neon-Green);
+}
+
+.card .advice {
+    color: var(--Light-Cyan);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.divider {
+    margin-bottom: 20px;
+}
+
+.dice-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--Neon-Green);
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -60%);
+}
