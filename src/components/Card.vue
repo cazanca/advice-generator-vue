@@ -20,16 +20,16 @@ onBeforeMount(() => getAdvice())
 </script>
 
 <template>
-    <article class="card" role="card">
-        <h1 class="title" role="main-title">advice #{{adviceNumber}}</h1>
-        <p class="advice" role="advice">
+    <article class="card">
+        <h1 class="title">advice #{{adviceNumber}}</h1>
+        <p class="advice">
             "{{advice}}"
         </p>
         
-        <div class="divider" role="divider">
+        <div class="divider">
             <img src="../assets/images/pattern-divider-mobile.svg" alt="Divider">
         </div>
-        <div class="dice-container" role="container">
+        <div class="dice-container">
             <img src="../assets/images/icon-dice.svg" alt="Dice">
         </div>
     </article>
